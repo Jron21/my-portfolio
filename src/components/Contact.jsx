@@ -20,11 +20,11 @@ export default function Contact() {
                 <p>jayrondriz21@gmail.com</p>
               </div>
             </a>
-            <a href="https://github.com/Sora10Chan" className="contact-card">
+            <a href="https://github.com/Jron21" className="contact-card">
               <Link size={20} className="contact-icon" />
               <div>
                 <p className="contact-card-title">GitHub</p>
-                <p>github.com/Sora10Chan</p>
+                <p>github.com/Jron21</p>
               </div>
             </a>
             <a href="https://linkedin.com/in/jayron-driz-858728326" className="contact-card">

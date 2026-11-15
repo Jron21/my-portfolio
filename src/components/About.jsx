@@ -8,9 +8,12 @@ export default function About() {
           <span className="section-label">01 / About</span>
           <h2>How I got here.</h2>
           <p>
-            I studied Intelligent Systems and led the mobile development for my thesis:
-            a Flutter app that uses a TensorFlow Lite model to recognize skin diseases
-            offline. I also built a Discord bot for RSS monitoring and translation.
+            I’m a Computer Science graduate with hands-on experience in programming,
+            web development, machine learning, and computer hardware servicing through
+            academic and personal projects. I enjoy building software with modern tools
+            and technologies, and I’m especially passionate about AI and software
+            development. I’m eager to contribute to real-world projects while continuing
+            to learn and grow as a developer.
           </p>
         </div>
 
