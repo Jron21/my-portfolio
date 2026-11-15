@@ -41,10 +41,11 @@ export default function Navbar({ theme, onToggleTheme }) {
     <header className="topbar">
       <div className="layout-width nav-frame" ref={navFrameRef}>
         <a href="#home" className="brand-logo">
-          JAYRON
+          <span className="brand-mark">JR</span>
+          <span>Jay Ron Driz</span>
         </a>
 
-        <nav id="primary-navigation" className={`nav-links ${menuOpen ? 'nav-open' : ''}`}>
+        <nav id="primary-navigation" aria-label="Main navigation" className={`nav-links ${menuOpen ? 'nav-open' : ''}`}>
           {navLinks.map((link) => (
             <a
               key={link.href}
@@ -64,6 +65,7 @@ export default function Navbar({ theme, onToggleTheme }) {
             onClick={() => setMenuOpen((current) => !current)}
             aria-expanded={menuOpen}
             aria-controls="primary-navigation"
+            aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'}
           >
             {menuOpen ? <X size={18} /> : <Menu size={18} />}
           </button>

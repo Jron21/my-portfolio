@@ -1,33 +1,39 @@
 import React from 'react'
-import { Sparkles, Layers } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
 import Button from './Button'
 import heroImage from '../assets/profileimage.png'
 
 export default function Hero() {
   return (
     <section id="home" className="hero-banner">
-      <div className="hero-glow hero-glow--left" />
-      <div className="hero-glow hero-glow--right" />
-
       <div className="layout-width hero-grid">
         <div className="hero-copy-panel">
-          <h1 className="hero-title">I build web applications, machine learning solutions, and automation tools.</h1>
+          <p className="hero-eyebrow">Jay Ron Driz <span>/</span> Software developer</p>
+          <h1 className="hero-title">
+            Software with
+            <span>a clear job to do.</span>
+          </h1>
           <p className="hero-copy">
-             Passionate about creating practical, user-focused software that solves real-world problems through clean design and modern technologies.
+            I’m a computer science graduate. I’ve built an offline-capable Flutter thesis
+            app and a Discord bot for RSS monitoring and translation.
           </p>
 
           <div className="hero-actions">
-            <Button href="#projects" variant="primary">Work</Button>
-            <Button href="#contact" variant="secondary">Contact</Button>
+            <Button href="#projects" variant="primary">Selected work <ArrowUpRight size={17} /></Button>
+            <Button href="#contact" variant="secondary">Get in touch</Button>
           </div>
+          <p className="hero-location">Based in the Philippines <span>·</span> Open to entry-level roles</p>
         </div>
 
         <div className="hero-visual-panel">
-          <div className="hero-card hero-card--small">
-            <img src={heroImage} alt="Profile visual" className="hero-image" />
+          <div className="hero-portrait">
+            <div className="portrait-frame">
+              <img src={heroImage} alt="Portrait of Jay Ron Driz" className="hero-image" />
+            </div>
             <div className="hero-card-footer">
               <div>
-                <p className="panel-label">Portfolio</p>
+                <p className="panel-label">Jay Ron Driz</p>
+                <p className="panel-copy">Computer Science · Intelligent Systems</p>
               </div>
             </div>
           </div>

@@ -6,12 +6,12 @@ export default function Skills() {
     <section id="skills" className="section-break section-break--light">
       <div className="layout-width skills-section">
         <div className="section-heading">
-          <span className="section-label">Skills</span>
+          <span className="section-label">03 / Toolkit</span>
 
-          <h2>Technologies I use to build modern software.</h2>
+          <h2>Tools I’ve used across these projects.</h2>
 
           <p>
-            A collection of programming languages, frameworks, tools, and technologies I've used throughout my academic, internship, and personal projects.
+            Languages, libraries, and frameworks from my coursework and hands-on projects.
           </p>
         </div>
 

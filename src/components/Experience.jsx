@@ -6,10 +6,10 @@ export default function Experience() {
     <section id="experience" className="section-break section-break--cream">
       <div className="layout-width experience-section">
         <div className="section-heading">
-          <span className="section-label">Experience</span>
-          <h2>Experience gained through internships, academic projects, and personal development.</h2>
+          <span className="section-label">04 / Experience</span>
+          <h2>Work, study, and projects that got me here.</h2>
           <p>
-            My journey in software development has allowed me to work on web applications, machine learning projects, and automation tools while continuously improving my technical and problem-solving skills.
+            A mix of internship work, my undergraduate thesis, and a personal project.
           </p>
         </div>
 

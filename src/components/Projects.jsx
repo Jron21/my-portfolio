@@ -7,18 +7,14 @@ export default function Projects() {
     <section id="projects" className="section-break section-break--light">
       <div className="layout-width projects-section">
         <div className="section-heading">
-          <span className="section-label">Projects</span>
-
-          <h2>Projects that showcase my skills and experience.</h2>
-
-          <p>
-            A collection of academic, internship, and personal projects that demonstrate my experience in web development, machine learning, and software engineering.
-          </p>
+          <span className="section-label">02 / Selected work</span>
+          <h2>Two projects, each built to do something useful.</h2>
+          <p>One runs its model on-device. The other keeps an eye on RSS feeds.</p>
         </div>
 
         <div className="project-grid">
-          {projects.map((project) => (
-            <ProjectCard key={project.title} project={project} />
+          {projects.map((project, index) => (
+            <ProjectCard key={project.title} project={project} index={index + 1} />
           ))}
         </div>
       </div>

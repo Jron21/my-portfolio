@@ -1,16 +1,14 @@
 export const projects = [
   {
     title: 'Skin Disease Recognition App',
-    role: 'Lead Mobile Application Developer - Undergraduate Thesis Project',
-    description: 'Developed a Flutter application that integrates a TensorFlow Lite CNN model to recognize skin diseases offline.',
+    role: 'Undergraduate thesis · Mobile machine learning',
+    description: 'A Flutter app that uses a TensorFlow Lite model to recognize skin diseases on-device, without an internet connection.',
     tech: ['Flutter', 'TensorFlow Lite', 'Python', 'OpenCV'],
-    github: 'https://github.com/Sora10Chan/skin-disease-recognition',
   },
   {
     title: 'Discord RSS Bot',
-    role: 'Discord Bot Developer - Personal Project',
-    description: 'Built a Discord bot that automates RSS monitoring, translates blog posts into English, and retrieves articles using custom commands.',
+    role: 'Personal project · Automation',
+    description: 'A Discord bot that monitors RSS feeds, translates posts into English, and lets users retrieve articles with commands.',
     tech: ['Python', 'Discord.py', 'RSS'],
-    github: 'https://github.com/Sora10Chan/discord-rss-bot',
   },
 ]

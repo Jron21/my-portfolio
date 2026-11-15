@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="layout-width contact-section">
         <div className="contact-grid">
           <div className="contact-panel">
-            <span className="section-label">Contact</span>
+            <span className="section-label">06 / Contact</span>
             <h2>Get in touch.</h2>
             <p>Currently seeking entry-level software development opportunities where I can contribute, learn, and grow as a developer.</p>
           </div>

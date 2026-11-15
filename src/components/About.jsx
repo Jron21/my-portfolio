@@ -5,27 +5,19 @@ export default function About() {
     <section id="about" className="section-break section-break--cream">
       <div className="layout-width about-section">
         <div className="about-intro">
-          <span className="section-label">About</span>
-          <h2>About Me</h2>
+          <span className="section-label">01 / About</span>
+          <h2>How I got here.</h2>
           <p>
-            I'm a Computer Science graduate specializing in Intelligent Systems with hands-on experience in web development, machine learning, and software development. I enjoy building practical software that solves real-world problems and continuously improving my technical skills.
+            I studied Intelligent Systems and led the mobile development for my thesis:
+            a Flutter app that uses a TensorFlow Lite model to recognize skin diseases
+            offline. I also built a Discord bot for RSS monitoring and translation.
           </p>
-          <div className="about-divider" />
         </div>
 
-        <div className="about-cards">
-          <div className="info-card">
-            <h3>🎓 Education</h3>
-            <p>BS Computer Science<br />Intelligent Systems</p>
-          </div>
-          <div className="info-card">
-            <h3>💻 Focus</h3>
-            <p>Web Development<br />Machine Learning<br />Automation</p>
-          </div>
-          <div className="info-card">
-            <h3>📍 Status</h3>
-            <p>Open to Entry-Level<br />Software Developer Roles</p>
-          </div>
+        <div className="about-notes">
+          <p><span>Education</span> BS Computer Science <small>Intelligent Systems</small></p>
+          <p><span>Experience</span> Lead Mobile Application Developer <small>Undergraduate thesis · 2025</small></p>
+          <p><span>Currently</span> Open to entry-level software developer roles</p>
         </div>
       </div>
     </section>

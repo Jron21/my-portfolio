@@ -1,13 +1,11 @@
 import React from 'react'
 
-export default function ProjectCard({ project }) {
+export default function ProjectCard({ project, index }) {
   return (
-    <article className="project-card">
+    <article className={`project-card ${index === 1 ? 'project-card--featured' : ''}`}>
       <div className="project-header">
-        <div>
-          <p className="project-label">{project.role || 'Project'}</p>
-          <h3>{project.title}</h3>
-        </div>
+        <p className="project-label"><span>0{index}</span> {project.role || 'Project'}</p>
+        <h3>{project.title}</h3>
       </div>
       <p className="project-description">{project.description}</p>
       <div className="project-tags">
